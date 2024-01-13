@@ -5,8 +5,11 @@ from PIL import Image, ImageOps
 import numpy as np
 
 # Load the model
-model = load_model("keras_Model.h5", compile=False)
-class_names = open("labels.txt", "r").readlines()
+model = load_model("PATH_TO_YOUR_MODEL", compile=False)
+class_names = open("PATH_TO_YOUR_LABELS/CLASSES.TXT", "r").readlines()
+
+# You must provide the model path and the labels for this to work.
+# To set it up, place the model and the labels in the same folder as the main.py file :)
 
 def predict_image():
     # Open file dialog to select an image
