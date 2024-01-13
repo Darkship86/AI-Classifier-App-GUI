@@ -28,18 +28,18 @@ def predict_image():
     confidence_score = prediction[0][index]
     
     # Display prediction and confidence score
-    result_label.config(text=f"Animal: {class_name[2:]}\nConfidence Score: {confidence_score}")
+    result_label.config(text=f"CLASS: {class_name[2:]}\nConfidence Score: {confidence_score}")
 
 # Create the Tkinter app
 app = tk.Tk()
-app.title("Animal Classifier App by Daniel KC")
-app.geometry("650x650")
+app.title("AI CLASSIFIER APP")
+app.geometry("50x500")
 
-subheading_label = tk.Label(app, text="12 different animal species", font=("Arial", 19, "bold"))
+subheading_label = tk.Label(app, text="PLEASE PLACE YOUR SUBHEADING HERE", font=("Arial", 19, "bold"))
 subheading_label.pack()
 
 
-subheading_label = tk.Label(app, text="Try it out below !  (Note: the image should be in JPG format)", font=("Arial", 19,))
+subheading_label = tk.Label(app, text="Try it out below !", font=("Arial", 19,))
 subheading_label.pack()
 
 # Create a button to select an image
