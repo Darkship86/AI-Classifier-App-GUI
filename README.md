@@ -14,5 +14,8 @@
 
 
 
+
  ![machine-learning-icon-illustration-machine-learning-solving-robot-big-data-artificial-intelligence-internet-of-things-infographic-template-concept-banner-icon-set-icons-          vector](https://github.com/Darkship86/AI-Classifier-App-GUI/assets/82195509/a9edec1d-1df4-4d2c-8f6c-cf5c02d08548)
+
+
 
