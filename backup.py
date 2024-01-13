@@ -1,3 +1,4 @@
+//PLEASE DO NOT RUN THIS FILE, IT IS ONLY FOR BACKUPS, RUN THE MAIN.PY FILE TO RUN THE APP//
 import tkinter as tk
 from tkinter import filedialog
 from PIL import ImageTk, Image
@@ -36,7 +37,7 @@ def classify_image():
 
 # Create the Tkinter app window
 window = tk.Tk()
-window.title("Animal Classification App By Daniel KC")
+window.title("PLACE TITLE HERE")
 
 
 
