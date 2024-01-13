@@ -3,6 +3,8 @@ Project files for a simple AI Image Classifier App.
 This is meant to be a template to get you started, 
 ML Models are not included in the project files.
 
+Please Install Tensorflow, NumPY and Tkinter to run the app.
+
 The GUI is built using Python-Tkinter, and any sort of
 Machine learning model can be loaded and tested visually.
 Future Updates will be added for faster efficiency or bugfixes.
