@@ -36,7 +36,7 @@ def predict_image():
 # Create the Tkinter app
 app = tk.Tk()
 app.title("AI CLASSIFIER APP")
-app.geometry("50x500")
+app.geometry("500x500")
 
 subheading_label = tk.Label(app, text="PLEASE PLACE YOUR SUBHEADING HERE", font=("Arial", 19, "bold"))
 subheading_label.pack()
